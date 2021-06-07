@@ -48,4 +48,9 @@ public class LinkedList<E> {
         System.out.println(myNodes);
     }
 
+    public void insert(INode<E> myNode, INode<E> newNode) {
+        INode<E> tempNode = myNode.getNext();
+        myNode.setNext(newNode);
+        newNode.setNext((tempNode));
+    }
 }

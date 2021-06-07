@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.LinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-07T18:55:25" hostname="LAPTOP-OKMRMTOT" time="0.008">
+  <properties/>
+  <testcase name="givenThreeNumber_whenAddedToLinkedListShouldNeAddedToTheTop" classname="com.bridgelabz.LinkedListTest" time="0.008"/>
+  <system-out><![CDATA[70->30->56]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

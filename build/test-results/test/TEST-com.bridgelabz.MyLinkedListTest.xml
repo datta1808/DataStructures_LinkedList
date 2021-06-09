@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MyLinkedListTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-09T18:59:31" hostname="LAPTOP-OKMRMTOT" time="0.01">
+<testsuite name="com.bridgelabz.MyLinkedListTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-09T19:38:51" hostname="LAPTOP-OKMRMTOT" time="0.004">
   <properties/>
-  <testcase name="SearchDataNodeForGivenDataIfFoundShouldInsertGivenNodeAndReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.005"/>
+  <testcase name="SearchDataNodeForGivenDataIfFoundShouldInsertGivenNodeAndReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.001"/>
   <testcase name="SearchNodeForGivenDataIfFoundShouldReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.0"/>
   <testcase name="GivenThreeNumbersWhenAddedToLinkedListShouldAddedtoTop" classname="com.bridgelabz.MyLinkedListTest" time="0.0"/>
-  <testcase name="PopNodeFromLastShouldReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.001"/>
-  <testcase name="DeleteNodeFromLinkedlistIfDeletedShouldReturnSizeAndReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.001"/>
+  <testcase name="PopNodeFromLastShouldReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.0"/>
+  <testcase name="DeleteNodeFromLinkedlistIfDeletedShouldReturnSizeAndReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.0"/>
+  <testcase name="IfLInkedListIsInAscendingOrderReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.0"/>
   <testcase name="GivenThreeNumbersWhenAddedToLinkedListShouldAddedtoBottom" classname="com.bridgelabz.MyLinkedListTest" time="0.0"/>
   <testcase name="GivenANodeInsertedInBetweenResultingNodesReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.0"/>
-  <testcase name="PopNodeFromFrontShouldReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.001"/>
+  <testcase name="PopNodeFromFrontShouldReturnTrue" classname="com.bridgelabz.MyLinkedListTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

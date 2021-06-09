@@ -71,6 +71,23 @@ public class LinkedList<E> {
         return key;
     }
 
+    public boolean search(MyNode<Integer> item) {
+        boolean isPresent = false;
+        INode<E> tempNode = head;
+        while(tempNode.getNext() != null) {
+            if(tempNode.getKey().equals(item)) {
+                isPresent = true;
+            }
+            else {
+                tempNode = tempNode.getNext();
+            }
+        }
+        if(tail.getKey().equals(item)) {
+            isPresent = true;
+        }
+        return isPresent;
+    }
+
 
     public void printNodes() {
         StringBuilder myNodes = new StringBuilder("My Nodes are: ");
@@ -81,7 +98,6 @@ public class LinkedList<E> {
             if (!tempNode.equals(tail)) myNodes.append("->");
             tempNode = tempNode.getNext();
         }
-
         myNodes.append((tempNode.getKey()));
         System.out.println(myNodes);
     }
